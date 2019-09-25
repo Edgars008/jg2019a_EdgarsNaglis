@@ -1,24 +1,36 @@
-Objekts: telefons
+Objekts1: telefons
 
-Stāvoklis:
-Ieslēgt - izslēgt
+      Stāvoklis:
+      Ieslēgt - izslēgt
+      baterijas līmenis
 
-Uzvedība:
-Palaist aplikāciju
-Piezvanīt
-Nosūtīt isziņu
+      Uzvedība:
+      Palaist aplikāciju
+      Piezvanīt
+      Nosūtīt isziņu
 
-Objekts: mašīna
+Objekts2: mašīna
 
-Stāvoklis:
-iedarbināt motoru- izslēgt motoru
-ieslēgt/izslēgt pagriezienu
-atvērt/ aizvērt durvis
+      Stāvoklis:
+      iedarbināt motoru- izslēgt motoru
+      ieslēgt/izslēgt pagriezienu
+      atvērt/ aizvērt durvis
 
-Uzvedība:
-Palaist aplikāciju
-Piezvanīt
-Nosūtīt isziņu
+      Uzvedība:
+      Braukt
+      Rādīt pagriezienu
+      Aizvērt durvis
+      
+Objekts3: balta lapa
 
-Algoritms1: Braukt uz darbu
-1)
+      Stāvoklis:
+      apzīmēta / nav apzīmēta
+      saburzīta / nav saburzīta
+
+      Uzvedība:
+      Var tikt apzīmēta, ja ir tukša.
+      Var tikt izmesta laukā, ja ir aprakstīta.
+      Var tikt saglabāta, ja ir aprakstīta.
+      
+      
+
