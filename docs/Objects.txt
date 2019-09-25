@@ -1,0 +1,24 @@
+Objekts: telefons
+
+Stāvoklis:
+Ieslēgt - izslēgt
+
+Uzvedība:
+Palaist aplikāciju
+Piezvanīt
+Nosūtīt isziņu
+
+Objekts: mašīna
+
+Stāvoklis:
+iedarbināt motoru- izslēgt motoru
+ieslēgt/izslēgt pagriezienu
+atvērt/ aizvērt durvis
+
+Uzvedība:
+Palaist aplikāciju
+Piezvanīt
+Nosūtīt isziņu
+
+Algoritms1: Braukt uz darbu
+1)
