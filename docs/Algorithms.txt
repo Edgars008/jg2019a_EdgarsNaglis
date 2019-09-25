@@ -1,0 +1,34 @@
+Algoritms1: Braukt uz darbu
+1)Piecelties
+2)Saģērpties
+3)Paēst brokasties
+4)Iet uz mašīnu
+5)Braukt uz darbu
+
+Algoritms2: Spēlēt basketbolu
+1)Sakārtot somā sportatērpu
+2)Braukt uz treniņu
+3)Saģērpties uz basketbola treniņu
+4)Iesildīties
+5)Gaidīt trenera norādījumus
+
+Algoritms3: Darbā uzspēlēt galda futbolu
+1) Ierakstīt komunikācijas vietā, ka meklē spēlētājus
+2) Gaida, kad spēlētāji pieteiksies
+3) Spēlētāji ie pieteikušies
+4) Uzrakstīt ziņu, kad ejam spēlēt
+5) Gaidam kolēģus pie futbola galda
+6) Sākt spēlēt, kad ir ieradušies visi spēlētāji
+
+Algoritms4: Samaisīt betonu
+1)Ieslēgt maisītāju
+2)Iebērt četras lāpstu kaudzes grants smiltis
+3)Iebērt divas lāpstas kadzes betona maisījumu
+4)Ieliet divus spaiņus ūdens
+5)Gaidīt, kad cements ir samaisīts
+6)Izliet cementu no maisītāja
+
+Algoritms5: Pabarot kaķi
+1)Izņemt svaigo gaļu no ledusskapi
+2)Sagriezt svaigo gaļu
+3)Nolikt kaķim uz grīdas sagriezto gaļu
