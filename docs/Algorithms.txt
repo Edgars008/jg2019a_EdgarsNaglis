@@ -32,3 +32,6 @@ Algoritms5: Pabarot kaķi
 1)Izņemt svaigo gaļu no ledusskapi
 2)Sagriezt svaigo gaļu
 3)Nolikt kaķim uz grīdas sagriezto gaļu
+
+
+//OK

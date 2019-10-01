@@ -12,9 +12,9 @@ Objekts1: telefons
 Objekts2: mašīna
 
       Stāvoklis:
-      iedarbināt motoru- izslēgt motoru
-      ieslēgt/izslēgt pagriezienu
-      atvērt/ aizvērt durvis
+      iedarbināt motoru- izslēgt motoru  //šī būs uzvedība
+      ieslēgt/izslēgt pagriezienu        //šī arī, bet ja teikt, ka indikators IR ieslēgts/izslēgts tad jā
+      atvērt/ aizvērt durvis             //tas pats stāsts
 
       Uzvedība:
       Braukt
@@ -27,10 +27,13 @@ Objekts3: balta lapa
       apzīmēta / nav apzīmēta
       saburzīta / nav saburzīta
 
+      // šī nav pašas lapas uzvedība, jo tā cita rīcība ar objektu
+      //lapa šo rīcību nevar ietekmēt
+      //šeit varētu būt, piemēram, "atstāj zīmuļa novilkto līniju"
       Uzvedība:
       Var tikt apzīmēta, ja ir tukša.
       Var tikt izmesta laukā, ja ir aprakstīta.
       Var tikt saglabāta, ja ir aprakstīta.
       
-      
+//Ok
 
