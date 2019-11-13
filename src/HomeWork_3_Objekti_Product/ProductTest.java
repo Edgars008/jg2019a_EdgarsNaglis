@@ -1,3 +1,7 @@
+//trūkst package
+//pienāc lūdzu pirms nodarbīas paskaidrošu
+//nekompilējās
+
 public class ProductTest {
     public static void main(String[] args) {
 Product milk = new Product();

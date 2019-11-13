@@ -1,3 +1,7 @@
+//trūkst package
+//pienāc lūdzu pirms nodarbīas paskaidrošu
+//nekompilējās
+
 public class CircleMain {
     public static void main(String[] args) {
 

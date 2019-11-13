@@ -1,3 +1,4 @@
+//kods nekompilējas, salabo
 public class CreditCard {
     private String cardNumber;
     private String cardPIN;

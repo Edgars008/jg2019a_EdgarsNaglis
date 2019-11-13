@@ -1,3 +1,7 @@
+//trūkst package
+//pienāc lūdzu pirms nodarbīas paskaidrošu
+//nekompilējās
+
 public class Car {
     private  String color;
     private  String manufacturer;

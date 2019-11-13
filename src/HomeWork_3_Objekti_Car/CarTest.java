@@ -1,3 +1,8 @@
+//trūkst package
+//pienāc lūdzu pirms nodarbīas paskaidrošu
+//nekompilējās
+
+
 public class CarTest  {
     public static void main(String[] args) {
         Car car = new Car();
