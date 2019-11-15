@@ -1,6 +1,8 @@
-//trūkst package
+package HomeWork_3_Objekti_Product;//trūkst package
 //pienāc lūdzu pirms nodarbīas paskaidrošu
 //nekompilējās
+
+import HomeWork_3_Objekti_Product.Product;
 
 public class ProductTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//trūkst package
+package HomeWork_3_Objekti_Circle;//trūkst package
 //pienāc lūdzu pirms nodarbīas paskaidrošu
 //nekompilējās
 

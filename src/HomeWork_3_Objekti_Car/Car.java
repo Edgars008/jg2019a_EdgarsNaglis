@@ -1,4 +1,4 @@
-//trūkst package
+package HomeWork_3_Objekti_Car;//trūkst package
 //pienāc lūdzu pirms nodarbīas paskaidrošu
 //nekompilējās
 
