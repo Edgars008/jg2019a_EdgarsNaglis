@@ -2,6 +2,7 @@ package HomeWork_3.Product;//trūkst package
 //pienāc lūdzu pirms nodarbīas paskaidrošu
 //nekompilējās
 
+//Ok
 public class Product {
     private String name;
     private double regularPrice;
@@ -39,7 +40,7 @@ public class Product {
     public void printInformation(){
         System.out.println("Produkts: " + name);
         System.out.println("Produkta parasta cena: " + regularPrice);
-        System.out.println("Produkta atlaide: " + discount+"%");
+        System.out.println("Produkta atlaide: " + discount+"%");  //atlaidei ir jābut veselam skaitlim
         System.out.println("Produkta cena ar atlaidi: " + calculateActualPrice());
 
     }

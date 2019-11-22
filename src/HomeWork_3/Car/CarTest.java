@@ -1,9 +1,6 @@
-package HomeWork_3.Car;//trūkst package
-//pienāc lūdzu pirms nodarbīas paskaidrošu
-//nekompilējās
+package HomeWork_3.Car;
 
-
-import HomeWork_3.Car.Car;
+import HomeWork_3.Car.Car; //nav nepieciešams šis imports
 
 public class CarTest  {
     public static void main(String[] args) {
