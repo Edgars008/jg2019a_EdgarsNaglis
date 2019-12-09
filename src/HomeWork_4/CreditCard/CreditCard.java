@@ -2,7 +2,7 @@ package HomeWork_4.CreditCard;
 
 //kods nekompilējas, salabo
 public class CreditCard {
-    private String cardNumber;
+    private String cardNumber; //lauks nav izmantots - nav nepieciešams
     private String cardPIN;
     private double balanceAccount;
     private double maxCreditLimit;
@@ -25,34 +25,34 @@ public class CreditCard {
         return maxCreditLimit;
     }
 
-    public boolean toup(double amount, String pinCode){
-        if (this.cardPIN.equals(pinCode)){
-            if (usedCreditLimit > 0){
-              usedCreditLimit -= amount; // 50 -150 = -100
-                double creditlefOvers = usedCreditLimit;
-                if (creditlefOvers <= 0 ){
+    public boolean toup(double amount, String pinCode) {//typo - topUp
+        if (this.cardPIN.equals(pinCode)) {
+            if (usedCreditLimit > 0) {
+                usedCreditLimit -= amount; // 50 -150 = -100
+                double creditlefOvers = usedCreditLimit;//camelCase
+                if (creditlefOvers <= 0) {
                     usedCreditLimit = 0;
                     balanceAccount -= creditlefOvers;
                 }
-                System.out.println("Money toup " + amount + " Account = " +balanceAccount
-                + " Credit " + usedCreditLimit);
-            }else {
+                System.out.println("Money toup " + amount + " Account = " + balanceAccount
+                        + " Credit " + usedCreditLimit);
+            } else {
                 balanceAccount += amount;
                 System.out.println("Money toup " + amount);
             }
-        }else {
+        } else {
             System.out.println("Wrong PIN!");
         }
 
-       return true;
+        return true;
     }
 
-    public boolean withdraw(double amount, String pinCode){
-        if (this.cardPIN.equals(pinCode)){
-            double availableAmount = balanceAccount +(maxCreditLimit - usedCreditLimit);
-            if (availableAmount>= amount){
+    public boolean withdraw(double amount, String pinCode) {
+        if (this.cardPIN.equals(pinCode)) {
+            double availableAmount = balanceAccount + (maxCreditLimit - usedCreditLimit);
+            if (availableAmount >= amount) {
                 balanceAccount -= amount;
-                if (balanceAccount < 0){
+                if (balanceAccount < 0) {
                     usedCreditLimit -= balanceAccount;
                     balanceAccount = 0;
                 }
@@ -62,18 +62,18 @@ public class CreditCard {
                         "balance available:  " + balanceAccount + " credit " + maxCreditLimit);
             }
 
-        }else {
+        } else {
             System.out.println("Wrong PIN!");
         }
         return true;
     }
 
-    public void balanceActions(){
+    public void balanceActions() {
         System.out.println("Debeta bilance = " + balanceAccount);
         System.out.println("Kredita limits = " + maxCreditLimit);
-        if (balanceAccount > maxCreditLimit){
+        if (balanceAccount > maxCreditLimit) {
             System.out.println("Izmantots kredits = " + 0);
-        }else {
+        } else {
             System.out.println("Izmantots kredits = " + usedCreditLimit);
         }
     }

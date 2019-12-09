@@ -1,5 +1,6 @@
 package HomeWork_4.ColorByWaveLenght;
 
+//ctrl + alt + l
 public class LightColorDetectorTest {
     public static void main(String[] args) {
 LightColorDetector lightColorDetector = new LightColorDetector();
