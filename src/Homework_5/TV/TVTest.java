@@ -1,5 +1,6 @@
 package Homework_5.TV;
 
+//Ok
 public class TVTest {
     public static void main(String[] args) {
         TV tv = new TV("Samsung");

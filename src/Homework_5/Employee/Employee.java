@@ -2,6 +2,7 @@ package Homework_5.Employee;
 
 import java.util.Objects;
 
+//Ok
 public class Employee {
     private String contractNumber;
     private double salary;
