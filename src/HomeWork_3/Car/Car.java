@@ -31,7 +31,7 @@ public class Car {
         this.year = year;
     }
 
-    public void printcar(){
+    public void printcar(){  //camelCase -> printCar
         System.out.println("Mašīnas krāsa: " + color);
         System.out.println("Mašīnas ražotājs: " + manufacturer);
         System.out.println("Mašīnas gads: " + year);

@@ -1,5 +1,6 @@
 package HomeWork_4.ColorByWaveLenght;
 
+//ctrl + alt + l
 public class LightColorDetector {
     public void detect(int wavelength){
         if (wavelength > 380 && wavelength <450){

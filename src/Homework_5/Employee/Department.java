@@ -2,6 +2,7 @@ package Homework_5.Employee;
 
 import java.util.Objects;
 
+//Ok
 public class Department {
     private String name;
     private Company company;

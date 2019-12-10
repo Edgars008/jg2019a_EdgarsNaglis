@@ -2,6 +2,7 @@ package HomeWork_2;
 
 import java.util.Random;
 
+//OK
 public class RandomNumbersServiceTest {
     public static void main(String[] args) {
         Random randomGenerator = new Random();

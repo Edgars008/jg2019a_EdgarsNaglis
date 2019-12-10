@@ -1,5 +1,6 @@
 package Homework_5.Employee;
 
+//Ok
 public class EmployeeTest {
     public static void main(String[] args) {
         Company twino = new Company("TWINO","401030405060");

@@ -47,9 +47,11 @@ public class TV {
         this.turnedOn = turnedOn;
     }
 
+    //System.out izavades nav nepieciešamas
+
     public void nextChannel(){
-        if (this.turnedOn == true){
-            this.currentChannel += 1;
+        if (this.turnedOn == true){ //izmanto: if (this.turnedOn){
+            this.currentChannel += 1;  //lieot this.currentChannel++
         }else {
             System.out.println("TV ir izslegts!");
         }
@@ -57,8 +59,8 @@ public class TV {
     }
 
     public void previousChannel(){
-        if (this.turnedOn == true){
-            this.currentChannel -= 1;
+        if (this.turnedOn == true){ //izmanto: if (this.turnedOn){
+            this.currentChannel -= 1; //lieot this.currentChannel--
         }else {
             System.out.println("TV ir izslegts!");
         }
@@ -67,16 +69,16 @@ public class TV {
 
     public void increaseVolume(){
 
-        if (this.turnedOn == true){
-            this.currentVolumeLevel += 1;
+        if (this.turnedOn == true){//izmanto: if (this.turnedOn){
+            this.currentVolumeLevel += 1;//lieot this.currentVolumeLevel++
         }else {
             System.out.println("TV ir izslegts!");
         }
     }
     public void decreaseVolume(){
 
-        if (this.turnedOn == true){
-            this.currentVolumeLevel -= 1;
+        if (this.turnedOn == true){//izmanto: if (this.turnedOn){
+            this.currentVolumeLevel -= 1; //lieot this.currentVolumeLevel--
         }else {
             System.out.println("TV ir izslegts!");
         }

@@ -2,8 +2,9 @@ package HomeWork_3.Product;//trūkst package
 //pienāc lūdzu pirms nodarbīas paskaidrošu
 //nekompilējās
 
-import HomeWork_3.Product.Product;
+import HomeWork_3.Product.Product;  //lieks
 
+// ctrl + alt + l
 public class ProductTest {
     public static void main(String[] args) {
 Product milk = new Product();

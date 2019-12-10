@@ -14,6 +14,8 @@ public class MathOperations {
 
     }
 
+    //ja veidojam metodi, kura saka ka saskaitam divus parametrus, tad tai rezultātā ir jāatdod skaitlis aprēķinātais
+    //bet metodi kas izvada rezultātu ar tekstu var izveidot atsevišķi
     public void add(int one, int two){
         System.out.println("AdditionOperation operation = " + (one + two));
     }

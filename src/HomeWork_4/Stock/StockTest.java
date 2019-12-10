@@ -1,3 +1,6 @@
+package HomeWork_4.Stock;
+
+//Ok
 public class StockTest {
     public static void main(String[] args) {
         Stock ibm = new Stock("IBM",150);

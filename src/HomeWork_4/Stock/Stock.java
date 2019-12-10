@@ -1,3 +1,6 @@
+package HomeWork_4.Stock;
+
+//Ok
 public class Stock {
     private String company;
     private double currentValue;

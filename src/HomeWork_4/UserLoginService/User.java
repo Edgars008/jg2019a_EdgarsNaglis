@@ -12,6 +12,7 @@ public class User {
     }
 
     public String getLogin() {
+        //šeit arī ir jāpalielina loginAttempts, tad stradās pareizi
         return login;
     }
 
@@ -38,6 +39,8 @@ public class User {
     public void resetLoginAttempts(){
        this.loginAttemptsLeft = 3;
     }
+
+    //šai metodei ir jāizmaina "isBlocked" vērtība
     public boolean block(){
        return true;
     }

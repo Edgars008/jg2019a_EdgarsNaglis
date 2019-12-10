@@ -1,7 +1,9 @@
 package Homework_5.TV_And_TVController;
 
+//šai klasei bija jāsatur metodes, kuras izsauc TV metdes
+// piemēram,  nextChannel(), kuras izsauc tv.nextChannel() utt.
 public class TVController {
-    private TV televizors;
+    private TV televizors;  //atribūtiem ir jābūt angļu valodā
 
 
     public void connect(TV televizors){

@@ -1,7 +1,6 @@
-package HomeWork_3.Circle;//trūkst package
-//pienāc lūdzu pirms nodarbīas paskaidrošu
-//nekompilējās
+package HomeWork_3.Circle;
 
+//lietojam "ctrl + alt + l"
 public class Circle {
    private double radius;
 
