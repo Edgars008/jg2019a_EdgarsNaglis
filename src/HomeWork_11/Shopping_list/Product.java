@@ -62,10 +62,10 @@ public class Product {
             Product product = new Product();
         for (int i=0; i<productList.size(); i++){
 
-            if (productList.contains(product.getPrice()) < min && productList.contains(product.getPrice()) > max)
+//            if (productList.contains(product.getPrice()) < min && productList.contains(product.getPrice()) > max)
         }
 
-
+        return null;
 
     }
 
