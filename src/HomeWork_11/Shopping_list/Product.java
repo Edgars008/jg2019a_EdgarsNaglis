@@ -59,14 +59,7 @@ public class Product {
     }
 
     public List<Product> priceRange(double min, double max){
-            Product product = new Product();
-        for (int i=0; i<productList.size(); i++){
-
-            if (productList.contains(product.getPrice()) < min && productList.contains(product.getPrice()) > max)
-        }
-
-
-
+      return null;
     }
 
     public void givenCategory(Category category){
