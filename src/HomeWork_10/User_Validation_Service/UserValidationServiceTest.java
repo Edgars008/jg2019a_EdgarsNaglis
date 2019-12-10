@@ -4,6 +4,9 @@ public class UserValidationServiceTest {
 
     public static void main(String[] args) {
         UserValidationService userValidationService =
-                new UserValidationService("Kar","Nagl",30);
+                new UserValidationService("Ka","Nagl",30);
+
+        UserValidationService userValidationService1 =
+                new UserValidationService("Karlis","Naglis",30);
     }
 }
