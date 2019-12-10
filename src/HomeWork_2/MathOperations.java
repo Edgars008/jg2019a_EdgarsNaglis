@@ -15,7 +15,7 @@ public class MathOperations {
     }
 
     public void add(int one, int two){
-        System.out.println("Add operation = " + (one + two));
+        System.out.println("AdditionOperation operation = " + (one + two));
     }
     public void subtract(int one, int two){
         System.out.println("Subtract operation = " + (one - two));
