@@ -58,9 +58,13 @@ public class Product {
         System.out.println("Product list: " + productList);
     }
 
-    public List<Product> priceRange(double min, double max){
-      return null;
-    }
+//    public List<Product> priceRange(double min, double max){
+//
+////        for (test : productList){
+////
+////        }
+////      return null;
+//    }
 
     public void givenCategory(Category category){
             productList.contains(category.toString());

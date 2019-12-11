@@ -10,6 +10,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+import static FinalWork.model.ProductCategory.CANDY;
+import static FinalWork.model.ProductCategory.FRUIT;
+import static java.math.BigDecimal.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductServiceImplTest {
@@ -54,11 +57,23 @@ class ProductServiceImplTest {
         assertTrue(service.findAll().isEmpty());
     }
 
+    @Test
+    void shouldFindProductByCategory(){
+        Product p1 = new Product("t1", CANDY, TEN);
+        Product p2 = new Product("t2", FRUIT, TEN);
+        Product p3 = new Product("t3", CANDY, TEN);
+
+        service.add(p1);
+        service.add(p2);
+        service.add(p3);
+
+        List<Product> candies = service.findBy(CANDY);
+        assertEquals(2, candies.size());
+        assertEquals(candies, Arrays.asList(p1,p3));
+    }
+
     private Product createProduct(String name) {
-        Product orange = new Product();
-        orange.setName(name);
-        orange.setCategory(ProductCategory.FRUIT);
-        orange.setPrice(BigDecimal.TEN);
+        Product orange = new Product(name,ProductCategory.FRUIT, TEN);
         return orange;
     }
 }

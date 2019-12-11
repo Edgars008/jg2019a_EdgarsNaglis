@@ -1,8 +1,10 @@
 package FinalWork.service;
 
 import FinalWork.model.Product;
+import FinalWork.model.ProductCategory;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 class ProductServiceImpl implements ProductService {
 
@@ -28,5 +30,21 @@ class ProductServiceImpl implements ProductService {
     @Override
     public void deleteBy(Long id) {
         repository.remove(id);
+    }
+
+    @Override
+    public List<Product> findBy(ProductCategory category) {
+
+
+//        List<Product> result = new ArrayList<>();
+//        for (Product product : repository.values()){
+//            if (product.getCategory() == category){
+//                result.add(product);
+//            }
+//        }
+//        return result;
+      return   repository.values().parallelStream()
+                .filter(product -> product.getCategory() == category)
+                .collect(Collectors.toList());
     }
 }
